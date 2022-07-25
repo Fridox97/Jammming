@@ -18,9 +18,9 @@ export class Track extends React.Component {
 
     renderAction(isRemoval){
         if(isRemoval){
-            return <button className="Trackaction" onClick={this.removeTrack}>-</button>
+            return <button className="Track-action" onClick={this.removeTrack}>-</button>
         }else{
-            return <button className="Trackaction" onClick={this.addTrack}>+</button>
+            return <button className="Track-action" onClick={this.addTrack}>+</button>
         }
     }
 
